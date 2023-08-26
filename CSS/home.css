@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15%;
+    background-color: #e4b13a;
+    height: 60px;
+   
+}
+
+
+header img{
+    width: 100px;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    gap: 30%;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.navbar{
+    text-decoration: none;
+    color:#fdfeff;
+    font-weight: 800;
+
+}
+
+nav :hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color:#2c455b;
+}
+header h3{
+  border: 2px solid rgb(253, 251, 248);
+  border-radius: 5px;
+  width: 110PX;
+  text-align: center;
+  background-color: rgb(245, 247, 249);
+  padding: 1px;
+  font-family: 'Golos Text', sans-serif;
+  padding: 4px;
+}
+
+.log{
+
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  margin-left: 47%;
+}
+
+/*start of the page*/
+.start{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+ 
+}
+ .start img{
+
+  margin-top: 10%;
+  width: 100px;
+  margin: auto;
+  
+}
+
+ h2{
+  margin-top: 5%;
+
+ margin-left: 23%;
+color: #c7ad38;
+width: 100%;
+height: auto;
+max-width: 800px;
+overflow: visible;
+font-weight: 800;
+font-style: normal;
+font-family: "Wix Madefor Display", sans-serif;
+font-size: 80px;
+letter-spacing: 0em;
+line-height: 1.1;
+text-align: center;
+
+}
+
+.butn p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  border: 2px solid rgb(185, 180, 180);
+  color: #b7c0c7;
+  width: 150px;
+  text-align: center;
+  background-color: #e9eff5;
+  border-radius: 8px;
+  height: 35px;
+font-family: 'Golos Text', sans-serif;
+margin-top: 2%;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.butn{
+  display: flex;
+  justify-content:center;
+  gap: 2%;
+  margin-top: 4%;
+  
+
+}
