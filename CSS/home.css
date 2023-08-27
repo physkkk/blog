@@ -512,7 +512,118 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .like-dislike-container{
-  margin-bottom: 65%;
+  margin-bottom: 35%;
   margin-left: 10%;
   width: 100%;
+}
+
+/* comment section design */
+
+.container{
+  border:2px solid rgba(189, 188, 188, 0.734) ;
+  border-radius: 28px 0px 28px 0px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 240px;
+  align-items: center;
+  background-color: #a096423f;
+  padding: 1%;
+  gap: 4%;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+#v{
+  border: 2px solid rgb(245, 245, 50);
+  display: flex;
+  padding: 2px;
+  font-family: 'Golos Text', sans-serif;;
+  color: #5a5757;
+  justify-content: center;
+  align-items: center;
+  background-color: #efde9292;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  height: 30px;
+  
+}
+
+#newComment{
+  border-radius: 5px;
+  width: 200px;
+  height: 45px;
+  border: 1px solid rgb(192, 191, 191);
+}
+
+#addComments{
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #7f7c7c95;
+  color: #fcf6f6;
+  border: 1px solid rgba(255, 238, 0, 0.92);
+}
+
+.reply{
+  border: 2px solid rgba(230, 215, 76, 0.815);
+  width: 50px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #c7ad38;
+  padding: 2px;
+}
+
+.deleteComment{
+  border: 2px solid rgba(230, 215, 76, 0.815);
+  width: 50px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #c7ad38;
+  padding: 2px;
+}
+
+.likeComment{
+  border: 2px solid rgba(250, 250, 248, 0.815);
+  width: 50px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #c7ad38;
+  padding: 2px;
+}
+
+.addReply{
+  border: 2px solid rgba(250, 250, 248, 0.815);
+  width: 50px;
+  border-radius: 5px;
+  color: #383737;
+  background-color: #fbfaf5;
+  padding: 2px;
+  margin-left: 1%;
+ 
+}
+
+.cancelReply{
+  border: 2px solid rgba(250, 250, 248, 0.815);
+  width: 50px;
+  border-radius: 5px;
+  color: #383737;
+  background-color: #fbfaf5;
+  padding: 2px;
+}
+
+.wrapper{
+  text-align: center;
+  font-family: 'Golos Text', sans-serif;
+  color: #2d2a2a;
+}
+
+.z{
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid rgb(192, 191, 191);
+  margin-left: 11%;
 }

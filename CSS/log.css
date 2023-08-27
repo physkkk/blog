@@ -195,3 +195,18 @@
     font-size: larger;
  letter-spacing: 5px;
   }
+
+#back{
+  width: 120px;
+  padding: 1%;
+ background-color: #FBF0B2;
+ border-radius: 30px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Golos Text', sans-serif;
+  font-size: small;
+  font-weight: 600;
+  color: #6d6d6b;
+}
