@@ -627,3 +627,39 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   border: 1px solid rgb(192, 191, 191);
   margin-left: 11%;
 }
+#a{
+display: flex;
+gap: 15%;
+
+}
+
+.about{
+text-align: center;
+margin-top: 10%;
+border: 3px solid rgb(237, 219, 82);
+padding: 2%;
+width: 600px;
+height: 150px;
+background-color: #efd14aa4;
+border-radius:10px ;
+}
+.about p{
+word-spacing: 4px;
+letter-spacing: 2px;
+color: #696767;
+}
+
+.about:hover{
+  cursor: pointer;
+  font-size: large;
+  background-color: #f8f0d4b7;
+  
+}
+
+
+
+.about p:hover{
+  cursor: pointer;
+  color: #98830c;
+  
+}
